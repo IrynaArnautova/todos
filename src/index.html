@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Todos</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<main class="main">
+		<h1 class="main_title">Todos</h1>
+		<form class="main_inner">
+			<label class="main_label">
+				<input type="text" class="main_label-input js_input" placeholder="What needs to be done ?">
+			</label>
+			<div class="js_tasks-container"></div>
+			<div class="main_control">
+				<p class="js_task-left"><span></span> items left</p>
+				<div class="main_control-tab">
+					<a href="" class="main_control-tab-link js_show-tasks active" data-id="all">All</a>
+					<a href="" class="main_control-tab-link js_show-tasks" data-id="active">Active</a>
+					<a href="" class="main_control-tab-link js_show-tasks" data-id="completed">Completed</a>
+				</div>
+				<button class="main_control-reset js_reset-tasks">Clear completed</button>
+			</div>
+		</form>
+	</main>
+</body>
+</html>
